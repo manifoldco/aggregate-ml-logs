@@ -1,0 +1,8 @@
+keras
+scikit-learn
+boto3
+timber
+iron-worker
+tensorflow
+pandas
+jupyter
