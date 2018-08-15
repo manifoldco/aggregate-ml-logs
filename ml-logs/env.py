@@ -1,0 +1,6 @@
+import os
+
+TIMBER_KEY = os.getenv('TIMBER_KEY')
+IRON_WORKER_KEY = os.getenv('IRON_WORKER_KEY')
+AWS_ACCESS_KEY_ID = os.getenv('AWS_ACCESS_KEY_ID')
+AWS_ACCESS_KEY_SECRET = os.getenv('AWS_ACCESS_KEY_SECRET')
