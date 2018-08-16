@@ -1,4 +1,8 @@
 FROM python:3.6.4
 
-ARG JOB
+WORKDIR /opt/src/
 COPY . ./
+ENV PYTHONPATH /opt/src
+RUN pip install -r requirements.txt
+
+ENTRYPOINT [ "python" ]
