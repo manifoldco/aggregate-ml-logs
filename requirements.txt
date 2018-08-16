@@ -6,3 +6,4 @@ iron-worker
 tensorflow
 pandas
 jupyter
+matplotlib
