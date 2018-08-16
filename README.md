@@ -1,4 +1,4 @@
-# Hello Log Aggregation For Machine Learning Jobs
+# Hello Observability For Machine Learning with Timber.io
 
 Logging for machine learning is important. It provides observability into how your data processing, model training, evaluation, and artifact persistance is going. But its frought with questions: which logs are important, how do I log across multiple enviroments and frameworks, should I log experimental research and production training code? Enter Timber.io, by providing a dead simple logging interface for python let Timber.io collect and manage your training logs and provide once central place for machine learning observability.
 
