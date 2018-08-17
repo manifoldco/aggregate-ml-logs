@@ -9,3 +9,8 @@ Once you have manifold installed you can provision a free timber logging service
 $ manifold create --team datasci --project aggregate-ml-logs --product timber-logging
 $ manifold run -- bash ./run-me.sh
 ```
+
+or run the experiment
+```
+$ manifold run -- jupyter notebook
+```
