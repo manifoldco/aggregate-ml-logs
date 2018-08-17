@@ -26,12 +26,13 @@ def evaluate_lr(estimator, x_test, y_test):
                                                         batch_size=32,
                                                         shuffle=False,
                                                         num_epochs=1)
-    logger.info('TF Estimator average_loss was %d', estimator.evaluate(eval_input_fn)['average_loss'])
+    logger.info('TF Estimator average_loss was %f', estimator.evaluate(eval_input_fn)['average_loss'])
 
     
 
 if __name__ == "__main__":
-    logger.info('Training: %s:%d', env.JOB, env.SAMPLE_SIZE)
+
+    logger.info('Training: %s:%f', env.JOB, env.SAMPLE_SIZE)
     traces = read_traces(env.SAMPLE_SIZE)
     x_train, y_train, x_test, y_test = scale_traces(traces)
     estimator = train_lr(x_train, y_train)
